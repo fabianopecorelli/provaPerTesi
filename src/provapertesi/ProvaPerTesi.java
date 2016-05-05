@@ -16,6 +16,8 @@ public class ProvaPerTesi {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        PersonPojo person = new PersonPojo("Fabiano","Pecorelli",1991);
+        System.out.println(person.getName() + " - " + person.getLastName());
     }
     
 }
